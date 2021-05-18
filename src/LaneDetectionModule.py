@@ -87,7 +87,7 @@ def getLaneCurve(img, display=0):
 
 
 if __name__ == '__main__':
-    cap = cv2.VideoCapture('data/vid1.mp4')
+    cap = cv2.VideoCapture('vid1.mp4')
 
     # получили точки, которые надо развернуть в прямоугольник, опытным путем
     intialTrackbarVals = [96, 107, 41, 218]
